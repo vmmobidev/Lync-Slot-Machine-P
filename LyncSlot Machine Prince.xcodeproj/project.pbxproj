@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860CA0E01A04B60A007956B1 /* Lync Slot Game - UI - Option #2.png in Resources */ = {isa = PBXBuildFile; fileRef = 860CA0DF1A04B60A007956B1 /* Lync Slot Game - UI - Option #2.png */; };
+		8623E1D51A037ED5009B3C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8623E1D41A037ED5009B3C6F /* Foundation.framework */; };
+		8623E1D71A037ED5009B3C6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8623E1D61A037ED5009B3C6F /* CoreGraphics.framework */; };
+		8623E1D91A037ED5009B3C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8623E1D81A037ED5009B3C6F /* UIKit.framework */; };
+		8623E1DF1A037ED5009B3C6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8623E1DD1A037ED5009B3C6F /* InfoPlist.strings */; };
+		8623E1E11A037ED5009B3C6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623E1E01A037ED5009B3C6F /* main.m */; };
+		8623E1E51A037ED5009B3C6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623E1E41A037ED5009B3C6F /* AppDelegate.m */; };
+		8623E1E81A037ED5009B3C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8623E1E61A037ED5009B3C6F /* Main.storyboard */; };
+		8623E1EB1A037ED5009B3C6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623E1EA1A037ED5009B3C6F /* ViewController.m */; };
+		8623E1ED1A037ED5009B3C6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8623E1EC1A037ED5009B3C6F /* Images.xcassets */; };
+		8623E1F41A037ED5009B3C6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8623E1F31A037ED5009B3C6F /* XCTest.framework */; };
+		8623E1F51A037ED5009B3C6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8623E1D41A037ED5009B3C6F /* Foundation.framework */; };
+		8623E1F61A037ED5009B3C6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8623E1D81A037ED5009B3C6F /* UIKit.framework */; };
+		8623E1FE1A037ED5009B3C6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8623E1FC1A037ED5009B3C6F /* InfoPlist.strings */; };
+		8623E2001A037ED5009B3C6F /* SlotNewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623E1FF1A037ED5009B3C6F /* SlotNewTests.m */; };
+		8623E20C1A037EF5009B3C6F /* ZCSlotMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8623E20B1A037EF5009B3C6F /* ZCSlotMachine.m */; };
+		8623E2231A03896D009B3C6F /* airport@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E20F1A03896D009B3C6F /* airport@2x.jpg */; };
+		8623E2241A03896D009B3C6F /* home@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2101A03896D009B3C6F /* home@2x.jpg */; };
+		8623E2251A03896D009B3C6F /* meeting room@2x.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2111A03896D009B3C6F /* meeting room@2x.jpeg */; };
+		8623E2261A03896D009B3C6F /* office@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2121A03896D009B3C6F /* office@2x.jpg */; };
+		8623E2271A03896D009B3C6F /* Brainstorm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2141A03896D009B3C6F /* Brainstorm.jpg */; };
+		8623E2281A03896D009B3C6F /* Crisis Meeting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2151A03896D009B3C6F /* Crisis Meeting.jpg */; };
+		8623E2291A03896D009B3C6F /* LT Meeting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2161A03896D009B3C6F /* LT Meeting.jpg */; };
+		8623E22A1A03896D009B3C6F /* Meeting 1000+.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2171A03896D009B3C6F /* Meeting 1000+.jpg */; };
+		8623E22B1A03896D009B3C6F /* Meeting Room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2181A03896D009B3C6F /* Meeting Room.jpg */; };
+		8623E22C1A03896D009B3C6F /* Guest@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E21A1A03896D009B3C6F /* Guest@2x.jpg */; };
+		8623E22D1A03896D009B3C6F /* Organizer@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E21B1A03896D009B3C6F /* Organizer@2x.jpg */; };
+		8623E22E1A03896D009B3C6F /* participant@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E21C1A03896D009B3C6F /* participant@2x.jpg */; };
+		8623E22F1A03896D009B3C6F /* Presenter@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E21D1A03896D009B3C6F /* Presenter@2x.jpg */; };
+		8623E2301A03896D009B3C6F /* I listen@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E21F1A03896D009B3C6F /* I listen@2x.jpg */; };
+		8623E2311A03896D009B3C6F /* ipad@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2201A03896D009B3C6F /* ipad@2x.jpg */; };
+		8623E2321A03896D009B3C6F /* iphone@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2211A03896D009B3C6F /* iphone@2x.jpg */; };
+		8623E2331A03896D009B3C6F /* pcLync@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2221A03896D009B3C6F /* pcLync@2x.png */; };
+		8623E2381A038C8C009B3C6F /* Batman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2341A038C8C009B3C6F /* Batman@2x.png */; };
+		8623E2391A038C8C009B3C6F /* Doraemon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2351A038C8C009B3C6F /* Doraemon@2x.png */; };
+		8623E23A1A038C8C009B3C6F /* Mario@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2361A038C8C009B3C6F /* Mario@2x.png */; };
+		8623E23B1A038C8C009B3C6F /* Nobi Nobita@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8623E2371A038C8C009B3C6F /* Nobi Nobita@2x.png */; };
+		8623E23D1A03B694009B3C6F /* SlotMachineCover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8623E23C1A03B693009B3C6F /* SlotMachineCover@2x.png */; };
+		864FA4FD1A07A57300FE4B0A /* Screen-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 864FA4FC1A07A57300FE4B0A /* Screen-03.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8623E1F71A037ED5009B3C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8623E1C91A037ED5009B3C6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8623E1D01A037ED5009B3C6F;
+			remoteInfo = SlotNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		860CA0DF1A04B60A007956B1 /* Lync Slot Game - UI - Option #2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lync Slot Game - UI - Option #2.png"; sourceTree = "<group>"; };
+		8623E1D11A037ED5009B3C6F /* LyncSlot Machine Prince.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LyncSlot Machine Prince.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8623E1D41A037ED5009B3C6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8623E1D61A037ED5009B3C6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8623E1D81A037ED5009B3C6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8623E1DC1A037ED5009B3C6F /* LyncSlot Machine Prince-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LyncSlot Machine Prince-Info.plist"; sourceTree = "<group>"; };
+		8623E1DE1A037ED5009B3C6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8623E1E01A037ED5009B3C6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8623E1E21A037ED5009B3C6F /* LyncSlot Machine Prince-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LyncSlot Machine Prince-Prefix.pch"; sourceTree = "<group>"; };
+		8623E1E31A037ED5009B3C6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8623E1E41A037ED5009B3C6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8623E1E71A037ED5009B3C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8623E1E91A037ED5009B3C6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8623E1EA1A037ED5009B3C6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8623E1EC1A037ED5009B3C6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8623E1F21A037ED5009B3C6F /* LyncSlot Machine PrinceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LyncSlot Machine PrinceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8623E1F31A037ED5009B3C6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8623E1FB1A037ED5009B3C6F /* LyncSlot Machine PrinceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LyncSlot Machine PrinceTests-Info.plist"; sourceTree = "<group>"; };
+		8623E1FD1A037ED5009B3C6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8623E1FF1A037ED5009B3C6F /* SlotNewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlotNewTests.m; sourceTree = "<group>"; };
+		8623E20A1A037EF5009B3C6F /* ZCSlotMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSlotMachine.h; sourceTree = "<group>"; };
+		8623E20B1A037EF5009B3C6F /* ZCSlotMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSlotMachine.m; sourceTree = "<group>"; };
+		8623E20F1A03896D009B3C6F /* airport@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "airport@2x.jpg"; sourceTree = "<group>"; };
+		8623E2101A03896D009B3C6F /* home@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "home@2x.jpg"; sourceTree = "<group>"; };
+		8623E2111A03896D009B3C6F /* meeting room@2x.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meeting room@2x.jpeg"; sourceTree = "<group>"; };
+		8623E2121A03896D009B3C6F /* office@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "office@2x.jpg"; sourceTree = "<group>"; };
+		8623E2141A03896D009B3C6F /* Brainstorm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Brainstorm.jpg; sourceTree = "<group>"; };
+		8623E2151A03896D009B3C6F /* Crisis Meeting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crisis Meeting.jpg"; sourceTree = "<group>"; };
+		8623E2161A03896D009B3C6F /* LT Meeting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LT Meeting.jpg"; sourceTree = "<group>"; };
+		8623E2171A03896D009B3C6F /* Meeting 1000+.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meeting 1000+.jpg"; sourceTree = "<group>"; };
+		8623E2181A03896D009B3C6F /* Meeting Room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Meeting Room.jpg"; sourceTree = "<group>"; };
+		8623E21A1A03896D009B3C6F /* Guest@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Guest@2x.jpg"; sourceTree = "<group>"; };
+		8623E21B1A03896D009B3C6F /* Organizer@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Organizer@2x.jpg"; sourceTree = "<group>"; };
+		8623E21C1A03896D009B3C6F /* participant@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "participant@2x.jpg"; sourceTree = "<group>"; };
+		8623E21D1A03896D009B3C6F /* Presenter@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Presenter@2x.jpg"; sourceTree = "<group>"; };
+		8623E21F1A03896D009B3C6F /* I listen@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I listen@2x.jpg"; sourceTree = "<group>"; };
+		8623E2201A03896D009B3C6F /* ipad@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ipad@2x.jpg"; sourceTree = "<group>"; };
+		8623E2211A03896D009B3C6F /* iphone@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone@2x.jpg"; sourceTree = "<group>"; };
+		8623E2221A03896D009B3C6F /* pcLync@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pcLync@2x.png"; sourceTree = "<group>"; };
+		8623E2341A038C8C009B3C6F /* Batman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Batman@2x.png"; sourceTree = "<group>"; };
+		8623E2351A038C8C009B3C6F /* Doraemon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doraemon@2x.png"; sourceTree = "<group>"; };
+		8623E2361A038C8C009B3C6F /* Mario@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mario@2x.png"; sourceTree = "<group>"; };
+		8623E2371A038C8C009B3C6F /* Nobi Nobita@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nobi Nobita@2x.png"; sourceTree = "<group>"; };
+		8623E23C1A03B693009B3C6F /* SlotMachineCover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlotMachineCover@2x.png"; sourceTree = "<group>"; };
+		864FA4FC1A07A57300FE4B0A /* Screen-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen-03.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8623E1CE1A037ED5009B3C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623E1D71A037ED5009B3C6F /* CoreGraphics.framework in Frameworks */,
+				8623E1D91A037ED5009B3C6F /* UIKit.framework in Frameworks */,
+				8623E1D51A037ED5009B3C6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623E1EF1A037ED5009B3C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623E1F41A037ED5009B3C6F /* XCTest.framework in Frameworks */,
+				8623E1F61A037ED5009B3C6F /* UIKit.framework in Frameworks */,
+				8623E1F51A037ED5009B3C6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8623E1C81A037ED5009B3C6F = {
+			isa = PBXGroup;
+			children = (
+				8623E2091A037EF5009B3C6F /* ZCSlotMachine */,
+				8623E1DA1A037ED5009B3C6F /* SlotNew */,
+				8623E1F91A037ED5009B3C6F /* SlotNewTests */,
+				8623E1D31A037ED5009B3C6F /* Frameworks */,
+				8623E1D21A037ED5009B3C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8623E1D21A037ED5009B3C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8623E1D11A037ED5009B3C6F /* LyncSlot Machine Prince.app */,
+				8623E1F21A037ED5009B3C6F /* LyncSlot Machine PrinceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8623E1D31A037ED5009B3C6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8623E1D41A037ED5009B3C6F /* Foundation.framework */,
+				8623E1D61A037ED5009B3C6F /* CoreGraphics.framework */,
+				8623E1D81A037ED5009B3C6F /* UIKit.framework */,
+				8623E1F31A037ED5009B3C6F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8623E1DA1A037ED5009B3C6F /* SlotNew */ = {
+			isa = PBXGroup;
+			children = (
+				8623E20D1A03896D009B3C6F /* images */,
+				8623E1E31A037ED5009B3C6F /* AppDelegate.h */,
+				8623E1E41A037ED5009B3C6F /* AppDelegate.m */,
+				8623E1E61A037ED5009B3C6F /* Main.storyboard */,
+				8623E1E91A037ED5009B3C6F /* ViewController.h */,
+				8623E1EA1A037ED5009B3C6F /* ViewController.m */,
+				8623E2341A038C8C009B3C6F /* Batman@2x.png */,
+				8623E2351A038C8C009B3C6F /* Doraemon@2x.png */,
+				8623E2361A038C8C009B3C6F /* Mario@2x.png */,
+				8623E2371A038C8C009B3C6F /* Nobi Nobita@2x.png */,
+				8623E23C1A03B693009B3C6F /* SlotMachineCover@2x.png */,
+				860CA0DF1A04B60A007956B1 /* Lync Slot Game - UI - Option #2.png */,
+				864FA4FC1A07A57300FE4B0A /* Screen-03.png */,
+				8623E1EC1A037ED5009B3C6F /* Images.xcassets */,
+				8623E1DB1A037ED5009B3C6F /* Supporting Files */,
+			);
+			path = SlotNew;
+			sourceTree = "<group>";
+		};
+		8623E1DB1A037ED5009B3C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8623E1DC1A037ED5009B3C6F /* LyncSlot Machine Prince-Info.plist */,
+				8623E1DD1A037ED5009B3C6F /* InfoPlist.strings */,
+				8623E1E01A037ED5009B3C6F /* main.m */,
+				8623E1E21A037ED5009B3C6F /* LyncSlot Machine Prince-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8623E1F91A037ED5009B3C6F /* SlotNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8623E1FF1A037ED5009B3C6F /* SlotNewTests.m */,
+				8623E1FA1A037ED5009B3C6F /* Supporting Files */,
+			);
+			path = SlotNewTests;
+			sourceTree = "<group>";
+		};
+		8623E1FA1A037ED5009B3C6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8623E1FB1A037ED5009B3C6F /* LyncSlot Machine PrinceTests-Info.plist */,
+				8623E1FC1A037ED5009B3C6F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8623E2091A037EF5009B3C6F /* ZCSlotMachine */ = {
+			isa = PBXGroup;
+			children = (
+				8623E20A1A037EF5009B3C6F /* ZCSlotMachine.h */,
+				8623E20B1A037EF5009B3C6F /* ZCSlotMachine.m */,
+			);
+			path = ZCSlotMachine;
+			sourceTree = "<group>";
+		};
+		8623E20D1A03896D009B3C6F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8623E20E1A03896D009B3C6F /* Location */,
+				8623E2131A03896D009B3C6F /* Meeting Type */,
+				8623E2191A03896D009B3C6F /* Role */,
+				8623E21E1A03896D009B3C6F /* Tools */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		8623E20E1A03896D009B3C6F /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				8623E20F1A03896D009B3C6F /* airport@2x.jpg */,
+				8623E2101A03896D009B3C6F /* home@2x.jpg */,
+				8623E2111A03896D009B3C6F /* meeting room@2x.jpeg */,
+				8623E2121A03896D009B3C6F /* office@2x.jpg */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		8623E2131A03896D009B3C6F /* Meeting Type */ = {
+			isa = PBXGroup;
+			children = (
+				8623E2141A03896D009B3C6F /* Brainstorm.jpg */,
+				8623E2151A03896D009B3C6F /* Crisis Meeting.jpg */,
+				8623E2161A03896D009B3C6F /* LT Meeting.jpg */,
+				8623E2171A03896D009B3C6F /* Meeting 1000+.jpg */,
+				8623E2181A03896D009B3C6F /* Meeting Room.jpg */,
+			);
+			path = "Meeting Type";
+			sourceTree = "<group>";
+		};
+		8623E2191A03896D009B3C6F /* Role */ = {
+			isa = PBXGroup;
+			children = (
+				8623E21A1A03896D009B3C6F /* Guest@2x.jpg */,
+				8623E21B1A03896D009B3C6F /* Organizer@2x.jpg */,
+				8623E21C1A03896D009B3C6F /* participant@2x.jpg */,
+				8623E21D1A03896D009B3C6F /* Presenter@2x.jpg */,
+			);
+			path = Role;
+			sourceTree = "<group>";
+		};
+		8623E21E1A03896D009B3C6F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8623E21F1A03896D009B3C6F /* I listen@2x.jpg */,
+				8623E2201A03896D009B3C6F /* ipad@2x.jpg */,
+				8623E2211A03896D009B3C6F /* iphone@2x.jpg */,
+				8623E2221A03896D009B3C6F /* pcLync@2x.png */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8623E1D01A037ED5009B3C6F /* LyncSlot Machine Prince */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8623E2031A037ED5009B3C6F /* Build configuration list for PBXNativeTarget "LyncSlot Machine Prince" */;
+			buildPhases = (
+				8623E1CD1A037ED5009B3C6F /* Sources */,
+				8623E1CE1A037ED5009B3C6F /* Frameworks */,
+				8623E1CF1A037ED5009B3C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LyncSlot Machine Prince";
+			productName = SlotNew;
+			productReference = 8623E1D11A037ED5009B3C6F /* LyncSlot Machine Prince.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8623E1F11A037ED5009B3C6F /* LyncSlot Machine PrinceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8623E2061A037ED5009B3C6F /* Build configuration list for PBXNativeTarget "LyncSlot Machine PrinceTests" */;
+			buildPhases = (
+				8623E1EE1A037ED5009B3C6F /* Sources */,
+				8623E1EF1A037ED5009B3C6F /* Frameworks */,
+				8623E1F01A037ED5009B3C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8623E1F81A037ED5009B3C6F /* PBXTargetDependency */,
+			);
+			name = "LyncSlot Machine PrinceTests";
+			productName = SlotNewTests;
+			productReference = 8623E1F21A037ED5009B3C6F /* LyncSlot Machine PrinceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8623E1C91A037ED5009B3C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Vmoksha;
+				TargetAttributes = {
+					8623E1F11A037ED5009B3C6F = {
+						TestTargetID = 8623E1D01A037ED5009B3C6F;
+					};
+				};
+			};
+			buildConfigurationList = 8623E1CC1A037ED5009B3C6F /* Build configuration list for PBXProject "LyncSlot Machine Prince" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8623E1C81A037ED5009B3C6F;
+			productRefGroup = 8623E1D21A037ED5009B3C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8623E1D01A037ED5009B3C6F /* LyncSlot Machine Prince */,
+				8623E1F11A037ED5009B3C6F /* LyncSlot Machine PrinceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8623E1CF1A037ED5009B3C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623E1ED1A037ED5009B3C6F /* Images.xcassets in Resources */,
+				8623E22D1A03896D009B3C6F /* Organizer@2x.jpg in Resources */,
+				860CA0E01A04B60A007956B1 /* Lync Slot Game - UI - Option #2.png in Resources */,
+				8623E22A1A03896D009B3C6F /* Meeting 1000+.jpg in Resources */,
+				8623E23D1A03B694009B3C6F /* SlotMachineCover@2x.png in Resources */,
+				8623E2281A03896D009B3C6F /* Crisis Meeting.jpg in Resources */,
+				8623E22F1A03896D009B3C6F /* Presenter@2x.jpg in Resources */,
+				8623E22C1A03896D009B3C6F /* Guest@2x.jpg in Resources */,
+				8623E2251A03896D009B3C6F /* meeting room@2x.jpeg in Resources */,
+				864FA4FD1A07A57300FE4B0A /* Screen-03.png in Resources */,
+				8623E2241A03896D009B3C6F /* home@2x.jpg in Resources */,
+				8623E2381A038C8C009B3C6F /* Batman@2x.png in Resources */,
+				8623E2291A03896D009B3C6F /* LT Meeting.jpg in Resources */,
+				8623E1DF1A037ED5009B3C6F /* InfoPlist.strings in Resources */,
+				8623E2321A03896D009B3C6F /* iphone@2x.jpg in Resources */,
+				8623E1E81A037ED5009B3C6F /* Main.storyboard in Resources */,
+				8623E2391A038C8C009B3C6F /* Doraemon@2x.png in Resources */,
+				8623E2261A03896D009B3C6F /* office@2x.jpg in Resources */,
+				8623E22B1A03896D009B3C6F /* Meeting Room.jpg in Resources */,
+				8623E2331A03896D009B3C6F /* pcLync@2x.png in Resources */,
+				8623E2311A03896D009B3C6F /* ipad@2x.jpg in Resources */,
+				8623E2271A03896D009B3C6F /* Brainstorm.jpg in Resources */,
+				8623E23A1A038C8C009B3C6F /* Mario@2x.png in Resources */,
+				8623E23B1A038C8C009B3C6F /* Nobi Nobita@2x.png in Resources */,
+				8623E2301A03896D009B3C6F /* I listen@2x.jpg in Resources */,
+				8623E2231A03896D009B3C6F /* airport@2x.jpg in Resources */,
+				8623E22E1A03896D009B3C6F /* participant@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623E1F01A037ED5009B3C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623E1FE1A037ED5009B3C6F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8623E1CD1A037ED5009B3C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623E1EB1A037ED5009B3C6F /* ViewController.m in Sources */,
+				8623E1E51A037ED5009B3C6F /* AppDelegate.m in Sources */,
+				8623E20C1A037EF5009B3C6F /* ZCSlotMachine.m in Sources */,
+				8623E1E11A037ED5009B3C6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8623E1EE1A037ED5009B3C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8623E2001A037ED5009B3C6F /* SlotNewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8623E1F81A037ED5009B3C6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8623E1D01A037ED5009B3C6F /* LyncSlot Machine Prince */;
+			targetProxy = 8623E1F71A037ED5009B3C6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8623E1DD1A037ED5009B3C6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8623E1DE1A037ED5009B3C6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8623E1E61A037ED5009B3C6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8623E1E71A037ED5009B3C6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8623E1FC1A037ED5009B3C6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8623E1FD1A037ED5009B3C6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8623E2011A037ED5009B3C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8623E2021A037ED5009B3C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8623E2041A037ED5009B3C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotNew/LyncSlot Machine Prince-Prefix.pch";
+				INFOPLIST_FILE = "SlotNew/LyncSlot Machine Prince-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "LyncSlot Machine Prince";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8623E2051A037ED5009B3C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotNew/LyncSlot Machine Prince-Prefix.pch";
+				INFOPLIST_FILE = "SlotNew/LyncSlot Machine Prince-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "LyncSlot Machine Prince";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8623E2071A037ED5009B3C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlotNew.app/SlotNew";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotNew/SlotNew-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SlotNewTests/LyncSlot Machine PrinceTests-Info.plist";
+				PRODUCT_NAME = "LyncSlot Machine PrinceTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8623E2081A037ED5009B3C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlotNew.app/SlotNew";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotNew/SlotNew-Prefix.pch";
+				INFOPLIST_FILE = "SlotNewTests/LyncSlot Machine PrinceTests-Info.plist";
+				PRODUCT_NAME = "LyncSlot Machine PrinceTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8623E1CC1A037ED5009B3C6F /* Build configuration list for PBXProject "LyncSlot Machine Prince" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8623E2011A037ED5009B3C6F /* Debug */,
+				8623E2021A037ED5009B3C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8623E2031A037ED5009B3C6F /* Build configuration list for PBXNativeTarget "LyncSlot Machine Prince" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8623E2041A037ED5009B3C6F /* Debug */,
+				8623E2051A037ED5009B3C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8623E2061A037ED5009B3C6F /* Build configuration list for PBXNativeTarget "LyncSlot Machine PrinceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8623E2071A037ED5009B3C6F /* Debug */,
+				8623E2081A037ED5009B3C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8623E1C91A037ED5009B3C6F /* Project object */;
+}
